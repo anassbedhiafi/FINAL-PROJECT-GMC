@@ -45,6 +45,9 @@ export default function HomeScreen() {
           <ReactPlayer
            url={Nike}
            muted
+           replay
+           autopaused='false'
+           ended='false'
             width='100%'
             height='100%'
             playing={true}

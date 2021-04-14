@@ -28,7 +28,7 @@ export default function CartScreen(props) {
   };
   return (
     <div className="row top">
-      <div className="col-2">
+      <div className="col-2 shcart">
         <h1>Shopping Cart</h1>
         {error && <MessageBox variant="danger">{error}</MessageBox>}
         {cartItems.length === 0 ? (
@@ -44,7 +44,7 @@ export default function CartScreen(props) {
                     <img
                       src={item.image}
                       alt={item.name}
-                      className="small"
+                      className="smalls"
                     ></img>
                   </div>
                   <div className="min-30">

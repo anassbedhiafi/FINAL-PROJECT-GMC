@@ -71,14 +71,14 @@ function App() {
               BLACK KNIGHT
             </Link>
           </div>
-          <div>
+          <div className="ptsearch">
             <Route
               render={({ history }) => (
                 <SearchBox history={history}></SearchBox>
               )}
             ></Route>
           </div>
-          <div>
+          <div className="ptbar">
             <Link to="/cart">
             Shopping cart
               {cartItems.length > 0 && (

@@ -13,7 +13,9 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-mongoose.connect(process.env.MONGODB_URL || 'mongodb://localhost/amazona', {
+const keys = require("./config/keys");
+mongoose.connect(
+  keys.mongo_uri, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
@@ -25,6 +27,15 @@ app.use('/api/orders', orderRouter);
 app.get('/api/config/paypal', (req, res) => {
   res.send(process.env.PAYPAL_CLIENT_ID || 'sb');
 });
+
+if(process.envNODE_ENV == "production"){
+  app.use(express.static("frontend/build"));
+  const path = require("path");
+  app.get("*", (req,res)=>{
+    res.sendFile(path.resolve(__dirname, "clinet", "build", "index.html"));
+  });
+}
+
 app.get('/api/config/google', (req, res) => {
   res.send(process.env.GOOGLE_API_KEY || '');
 });
