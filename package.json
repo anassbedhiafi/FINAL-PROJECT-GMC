@@ -5,9 +5,9 @@
   "description": "GOMYCODE PROJECT",
   "main": "index.js",
   "scripts": {
-    "build": "cd frontend && npm install && npm run build",
+    "build": "ng build",
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js",
-    "heroku-postbuild":"NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build ---prefix client"
+    "heroku-postbuild": "ng build --prod"
   },
   "repository": {
     "type": "git",
