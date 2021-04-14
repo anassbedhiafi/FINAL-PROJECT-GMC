@@ -11,7 +11,6 @@ import { listProducts } from '../actions/productActions';
 import { listTopSellers } from '../actions/userActions';
 import { Link } from 'react-router-dom';
 import Nike from '../actions/videos/Nike-football.mp4'
-import Marvel from '../actions/videos/Marvel.mp4'
 
 
 export default function HomeScreen() {
