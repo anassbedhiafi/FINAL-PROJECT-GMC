@@ -676,6 +676,13 @@ img.large {
   .ptbar {
     margin: 6% 0% 10% 10%;
   }
+  button.small {
+    font-size: 5px;
+    position: relative !important;
+    left: 6px !important;
+    bottom: -2px !important;
+    padding: 14%;
+  }
 }
 .smalls {
   width: 100px;
