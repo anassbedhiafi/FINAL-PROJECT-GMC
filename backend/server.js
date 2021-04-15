@@ -13,9 +13,8 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
-mongodb+srv://anas-bedhiafi:Anassanass4@black-knight.5vwv2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
 
-mongoose.connect(process.env.MONGODB_URL || 'mmongodb+srv://anas-bedhiafi:Anassanass4@black-knight.5vwv2.mongodb.net/myFirstDatabase?retryWrites=true&w=majority', {
+mongoose.connect(process.env.MONGODB_URL || 'mongodb+srv://anas-bedhiafi:Anassanass4@black-knight.5vwv2.mongodb.net/black-knight', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
   useCreateIndex: true,
