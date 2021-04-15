@@ -669,6 +669,13 @@ img.large {
     left: 100px;
     margin: 0% 0% 10% 0%;
   }
+  a.brand {
+    word-spacing: 10px;
+    letter-spacing: 5px;
+  }
+  .ptbar {
+    margin: 6% 0% 10% 10%;
+  }
 }
 .smalls {
   width: 100px;
