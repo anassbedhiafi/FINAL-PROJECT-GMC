@@ -686,6 +686,13 @@ img.large {
   .ptbar {
     margin: 6% 0% 10% 10%;
   }
+  .row-select {
+    margin: 16% 11% 28% 0% !important;
+    font-size: 6px !important;
+  }
+  option {
+    font-size: 8px !important;;
+  }
   .hdown {
     margin: 14% 0% -20% 2%;
   }
