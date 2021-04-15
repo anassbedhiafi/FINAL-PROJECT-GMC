@@ -680,11 +680,125 @@ img.large {
 .smalls {
   width: 100px;
 }
-/* @media only screen and (max-width: 600px) {
-  .primary {
-    display: none;
-  }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
   .search_box {
     margin: 0% 5% 0% 0%;
   }
-} */
+  h2.fontmarvel {
+    margin: 15% 0% 0% 0%;
+  }
+  .ptsearch {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4% 0% 2% 20%;
+  }
+  .rc-footer-columns,
+  .rc-footer-container {
+    display: none;
+  }
+  .rc-footer-bottom-container {
+    margin: 30% 0% 0% 0% !important;
+  }
+  .customtable {
+    margin: 20% 0% 0% 0% !important;
+  }
+  .pagination {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10% 0% 0% 0% !important;
+  }
+  table.table {
+    font-size: 8px;
+  }
+  button.small {
+    font-size: 5px;
+    padding: 2%;
+  }
+  td {
+    padding: 1% !important;
+  }
+  main {
+    margin: 20% 0% 0% 0%;
+  }
+  /* .col-2 {
+    max-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 20% 0% 10% 29%;
+  } */
+  .top {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .shcart ul {
+    font-size: 10px;
+    padding: 4%;
+  }
+  .shcart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin: 30% 0% 10% 8% !important;
+  }
+  .shcart h1 {
+    font-size: 20px;
+    content: "\a";
+    white-space: pre;
+    position: relative;
+    left: 127px;
+    bottom: 110px;
+  }
+  img.large {
+    max-width: 300px;
+    max-height: 280px;
+  }
+  /* .shippingadd {
+    margin: 20% 0% 0% 0%;
+  } */
+  .PLC {
+    position: relative;
+    top: 8px;
+  }
+  .small {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    left: 87px !important;
+    bottom: 20px !important;
+  }
+  .smalls {
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    position: relative;
+    left: 100px;
+    margin: 0% 0% 10% 0%;
+  }
+  a.brand {
+    word-spacing: 10px;
+    letter-spacing: 5px;
+  }
+  .ptbar {
+    margin: 8% 0% 10% 20%;
+    font-size: 23px;
+  }
+  .searchbtn {
+    display: none;
+  }
+}
