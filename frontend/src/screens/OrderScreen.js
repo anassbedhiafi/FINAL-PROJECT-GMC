@@ -135,7 +135,7 @@ export default function OrderScreen(props) {
                           </Link>
                         </div>
 
-                        <div>
+                        <div className="backorange">
                           {item.qty} x ${item.price} = ${item.qty * item.price}
                         </div>
                       </div>
