@@ -686,6 +686,9 @@ img.large {
   .ptbar {
     margin: 6% 0% 10% 10%;
   }
+  .hdown {
+    margin: 14% 0% -20% 2%;
+  }
   button.small {
     font-size: 5px;
     position: relative !important;
