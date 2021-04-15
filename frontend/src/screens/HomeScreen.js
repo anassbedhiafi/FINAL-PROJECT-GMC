@@ -42,6 +42,7 @@ export default function HomeScreen() {
           <Carousel>
         <div>
           <ReactPlayer
+           fileConfig={{ attributes: { playsinline: true }}}
            url={Nike}
            muted
            replay
