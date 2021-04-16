@@ -501,12 +501,6 @@ img.large {
     text-align: center;
     margin: 20% 0% 8% 0%;
   }
-.backorange {
-    background-color: rgb(168, 192, 219) !important;
-    margin: 5% 0% 5% 0%;
-    position: relative;
-    left: 80px;
-  }
 .map-input-box button {
   border-radius: 0 1rem 1rem 0;
   border-left: 0;
@@ -718,6 +712,12 @@ img.large {
   }
   .sellertop {
     margin: 13% 0% 0% 0% !important;
+  }
+  .backorange {
+    background-color: rgb(168, 192, 219) !important;
+    margin: 5% 0% 5% 0%;
+    position: relative;
+    left: 80px;
   }
 }
 .smalls {
