@@ -42,8 +42,16 @@ export default function SellerScreen(props) {
                     alt={user.seller.name}
                   ></img>
                 </div>
-                <div className="p-1">
+               <div className="p-1">
+                  <div className="dsvr">
                   <h1>{user.seller.name}</h1>
+                  <img
+                  src={verified}
+                  className="verified"
+                  alt="verified"
+                  width='60px'
+                   ></img>
+                   </div>
                 </div>
               </div>
             </li>
