@@ -569,6 +569,12 @@ img.large {
 .rc-footer-dark {
   background-color: transparent !important;
 }
+.html {
+  scroll-behavior: smooth;
+}
+.fontmarvel {
+  cursor: url(./LOGO.png), auto;
+}
 @media only screen and (max-width: 600px) {
   .searchbtn {
     display: none;
