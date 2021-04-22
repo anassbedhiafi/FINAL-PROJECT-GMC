@@ -6,6 +6,7 @@ import LoadingBox from '../components/LoadingBox';
 import MessageBox from '../components/MessageBox';
 import Product from '../components/Product';
 import Rating from '../components/Rating';
+import verified from '../verified.png';
 
 export default function SellerScreen(props) {
   const sellerId = props.match.params.id;
