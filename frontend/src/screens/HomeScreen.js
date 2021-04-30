@@ -10,7 +10,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { listProducts } from '../actions/productActions';
 import { listTopSellers } from '../actions/userActions';
 import { Link } from 'react-router-dom';
-import Nike from '../actions/videos/Nike-football.mp4'
+import Nike from '../actions/videos/NikeR.mp4'
 
 
 export default function HomeScreen() {
